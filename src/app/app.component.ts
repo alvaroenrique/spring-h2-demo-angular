@@ -14,7 +14,7 @@ const ELEMENT_DATA: PeriodicElement[] = [];
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'bcp-demo-front';
+  title = 'Demo Front: Tipo de cambio';
 
   displayedColumns: string[] = ['currency', 'price'];
   dataSource = ELEMENT_DATA;
